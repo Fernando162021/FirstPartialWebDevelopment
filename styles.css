@@ -3,10 +3,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-} 
-
 p {
     color: #666;
     text-align: center;
@@ -16,20 +12,25 @@ section {
     margin-bottom: 20px;
 }
 
-.container {
-    margin-top: 40px
+#status-tournaments .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+#status-tournaments .btn-primary:hover {
+    background-color: #0056b3;
 }
 
-#status-row .col {
-    text-align: center;
-}
-
-#upcoming-tournaments {
-    margin-top: 40px
-}
-
-#upcoming-tournament .table th {
+#active-tournaments .table th,
+#upcoming-tournaments .table th,
+#tournament-results .table th {
     background-color: cadetblue;
+}
+
+#active-tournaments,
+#tournament-results {
+    display: none;
 }
 
 input[type="text"],
